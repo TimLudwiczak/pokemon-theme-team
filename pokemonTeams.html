@@ -1,0 +1,11 @@
+<div className="pokemon-app">
+    <h1>Pokemon Theme Team</h1>
+    <button onClick={fetchPokemonImage}>Fetch Pokemon</button>
+    {pokemonImage && (
+      <div className="pokemon-image">
+        <img src={pokemonImage} alt="Pokemon" />
+      </div>
+    )}
+  </div>
+);
+};

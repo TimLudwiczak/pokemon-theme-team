@@ -1,0 +1,26 @@
+.pokemon-app {
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 20px;
+  }
+  
+  .pokemon-image, .pokemon-team {
+    margin: 20px 0;
+  }
+  
+  .pokemon-team {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .pokemon-team-member img {
+    width: 100px;
+    height: 100px;
+  }
+  
